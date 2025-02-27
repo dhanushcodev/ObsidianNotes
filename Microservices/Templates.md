@@ -1,0 +1,88 @@
+
+new project `Django handson\DemoProject> python manage.py startapp templatesDemo`
+
+create new templates folder inside templatesDemo folder
+
+`DemoProject\templatesDemo\templates\templatesDemo\firstTemplate.html`
+```
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>First Template</title>
+    </head>
+<body>
+    <h1>Templates in action</h1>
+</body>
+</html>
+
+```
+
+don't forget to add new project in INSTALLED_APPS in settings.py
+
+DemoProject\DemoProject\settings.py
+```
+INSTALLED_APPS = [
+    'django.contrib.admin',
+    'django.contrib.auth',
+    'django.contrib.contenttypes',
+    'django.contrib.sessions',
+    'django.contrib.messages',
+    'django.contrib.staticfiles',
+    'myDemoApp',
+    'templatesDemo'
+]
+```
+
+DemoProject\templatesDemo\views.py
+```
+from django.shortcuts import render
+
+# Create your views here.
+
+def renderTemplate(request):
+    return render(request,'templatesDemo/firstTemplate.html')
+```
+
+DemoProject\DemoProject\urls.py
+```
+from django.contrib import admin
+from django.urls import path
+from django.conf.urls import include
+from templatesDemo import views as templateDemo
+
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    path('firstApp/',include('myDemoApp.urls')),
+    path('quoteApp/',include('quoteApp.urls')),
+    path('template/',templateDemo.renderTemplate)
+]
+```
+
+now we can see the output in localhost:8000/template/
+
+## Template Tags
+
+DemoProject\templatesDemo\views.py
+```
+from django.shortcuts import render
+
+def renderTemplate(request):
+    myDict = {"name":"Dhanush"}
+    return render(request,'templatesDemo/firstTemplate.html',myDict)
+```
+
+DemoProject\templatesDemo\templates\templatesDemo\firstTemplate.html
+```
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>First Template</title>
+    </head>
+<body>
+    <h1>welcome</h1>
+    <h2>{{name}}</h2>
+</body>
+</html>
+```
+

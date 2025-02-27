@@ -1,0 +1,157 @@
+
+**Django uses MVT component**
+
+Model - data related stuff
+View - Responsible for taking incoming requests (routes)
+Template - html (rendering the final output)
+
+**Creating a Virtual Environment :**
+
+`python -m venv myenv`
+`Set-ExecutionPolicy Unrestricted -Scope Process`
+`.\myenv\Scripts\Activate`
+
+we can see `(myenv) PS D:\Django handson>`
+
+**Create a Django project :**
+
+`pip install django`
+
+`django-admin startproject DemoProject` or 
+`env/bin/django-admin.py startproject DemoProject`
+
+**Creating a app :**
+
+`(myenv) PS D:\Django handson> django-admin startproject DemoProject`
+`(myenv) PS D:\Django handson> cd DemoProject`
+`(myenv) PS D:\Django handson\DemoProject> python manage.py startapp myDemoApp`
+
+in *DemoProject\DemoProject\settings.py*
+
+add name of the app
+
+```
+INSTALLED_APPS = [
+    'django.contrib.admin',
+    'django.contrib.auth',
+    'django.contrib.contenttypes',
+    'django.contrib.sessions',
+    'django.contrib.messages',
+    'django.contrib.staticfiles',
+    'myDemoApp'
+]
+```
+
+**To Run the App :**
+`(myenv) PS D:\Django handson\DemoProject> python manage.py runserver`
+
+**To get out of virtual environment :**
+`(myenv) PS D:\Django handson\DemoProject> deactivate`
+
+**File Structure:**
+
+![[fileStructure.png]]
+
+**Configure URLs and Run the app :** 
+
+views.py
+```
+from django.shortcuts import render
+from django.http import HttpResponse
+
+# Create your views here.
+
+def display(request):
+    return HttpResponse("<h1>Hello World</h1>")
+```
+
+urls.py
+```
+from django.contrib import admin
+from django.urls import path
+from myDemoApp import views
+
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    path('hello/',views.display)
+]
+```
+
+now run the app 
+you can see the output in localhost:8000/hello/ 
+
+**Create another view :**
+
+views.py
+```
+from django.shortcuts import render
+from django.http import HttpResponse
+import datetime
+
+# Create your views here.
+
+def display(request):
+    return HttpResponse("<h1>Hello World</h1>")
+
+def displayDateTime(request):
+    dt = datetime.datetime.now()
+    s = "<b>Current Date and Time: </b>" + str(dt)
+    return HttpResponse(s)
+```
+
+urls.py
+```
+from django.contrib import admin
+from django.urls import path
+from myDemoApp import views
+
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    path('hello/',views.display),
+    path("datetime/",views.displayDateTime)
+
+]
+```
+
+now run the app
+you can see the output in localhost:8000/datetime/
+
+**Multiple applications :**
+
+`PS D:\Django handson\DemoProject> python manage.py startapp quoteApp`
+
+views.py
+```
+from django.shortcuts import render
+from django.http import HttpResponse
+
+# Create your views here.
+
+def displayQuote(request):
+    return HttpResponse("quote app")
+```
+
+urls.py
+```
+from django.contrib import admin
+from django.urls import path
+from myDemoApp import views
+from quoteApp import views as quoteApp
+
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    path('hello/',views.display),
+    path("datetime/",views.displayDateTime),
+    path("quote/",quoteApp.displayQuote)
+
+]
+```
+
+now run the app
+you can see the output in localhost:8000/quote/
+
+new file structure
+
+![[fileStructureAfterNewApp.png]]
+
+Next -> [[Application level URL]]

@@ -1,0 +1,44 @@
+
+DemoProject\DemoProject\urls.py
+```
+from django.contrib import admin
+from django.urls import path
+from django.conf.urls import include
+
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    path('firstApp/',include('myDemoApp.urls')),
+    path('quoteApp/',include('quoteApp.urls'))
+]
+```
+
+DemoProject\myDemoApp\urls.py
+```
+from django.urls import path
+from myDemoApp import views
+
+urlpatterns = [
+    path('',views.display),
+    path("datetime/",views.displayDateTime)
+
+]
+```
+
+DemoProject\quoteApp\urls.py
+```
+from django.urls import path
+
+from quoteApp import views
+
+urlpatterns = [
+
+    path("quote/",views.displayQuote)
+
+]
+```
+
+can see output through
+1. `admin/`
+2. `firstApp/`
+3. `quoteApp/` `quote/`
+
