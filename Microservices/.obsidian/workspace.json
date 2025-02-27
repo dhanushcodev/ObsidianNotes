@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Application level URL.md",
+                "file": "2. Application level URL.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Application level URL"
+              "title": "2. Application level URL"
             }
           },
           {
@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Templates.md",
+                "file": "3. Templates.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Templates"
+              "title": "3. Templates"
             }
           }
         ],
@@ -180,9 +180,9 @@
   },
   "active": "93bd048eabb14ef1",
   "lastOpenFiles": [
-    "Application level URL.md",
-    "Templates.md",
-    "Django.md",
+    "2. Application level URL.md",
+    "1. Django.md",
+    "3. Templates.md",
     "fileStructureAfterNewApp.png",
     "fileStructure.png"
   ]
