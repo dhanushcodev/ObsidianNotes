@@ -165,19 +165,20 @@
   },
   "active": "78f6d059b03a4162",
   "lastOpenFiles": [
-    "12. More about template.md",
+    "1. Django.md",
     "13. Session Management.md",
+    "9. Model Forms.md",
+    "Pasted image 20250407001612.png",
+    "6. Models.md",
+    "8. Django Forms.md",
+    "12. More about template.md",
     "11. Class Based Views.md",
     "10. Project Student Management.md",
-    "9. Model Forms.md",
-    "8. Django Forms.md",
     "7. Django ORM.md",
-    "6. Models.md",
     "5. Example Project.md",
     "4. Static Files.md",
     "3. Templates.md",
     "2. Application level URL.md",
-    "1. Django.md",
     "cbv app student delete.png",
     "cbv app student update.png",
     "cbv app student detail.png",
@@ -186,7 +187,6 @@
     "student delete view cbv crud.png",
     "student update view cbv crud.png",
     "student create view cbv crud.png",
-    "student detail view cbv crud.png",
-    "student list cbv crud.png"
+    "student detail view cbv crud.png"
   ]
 }
