@@ -1,56 +1,41 @@
 {
   "main": {
-    "id": "672bc84c863c6f8c",
+    "id": "45b725d6407f2e90",
     "type": "split",
     "children": [
       {
-        "id": "4fb69007364a69d5",
+        "id": "cc90507783f28a57",
         "type": "tabs",
         "children": [
           {
-            "id": "23831a4d26628a7b",
+            "id": "b2cbbf626383e486",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Node js.md",
+                "file": "Django/13. Session Management.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Node js"
-            }
-          },
-          {
-            "id": "0a03f4625e001a76",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Getting Input from users.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Getting Input from users"
+              "title": "13. Session Management"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "480860ea580ad996",
+    "id": "e8cf412cafd2eb9b",
     "type": "split",
     "children": [
       {
-        "id": "078e8032f39d1df6",
+        "id": "11f19472148ed392",
         "type": "tabs",
         "children": [
           {
-            "id": "14dcf85b3f97062c",
+            "id": "b77d5a19c442263e",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -63,7 +48,7 @@
             }
           },
           {
-            "id": "812dc4cc6d72d1c0",
+            "id": "f5cfd08c01c531ce",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -80,7 +65,7 @@
             }
           },
           {
-            "id": "dc2555874e2c150b",
+            "id": "03979a7ffc42706c",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -96,20 +81,20 @@
     "width": 300
   },
   "right": {
-    "id": "d42148e7a5499d95",
+    "id": "42fd2ad98bd9cf65",
     "type": "split",
     "children": [
       {
-        "id": "12e948ae3a7278ab",
+        "id": "4e7f1c316c374dc5",
         "type": "tabs",
         "children": [
           {
-            "id": "d745e2c54de87049",
+            "id": "3a726fee7e6fb9a8",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Getting Input from users.md",
+                "file": "Django/1. Django.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,46 +104,51 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Getting Input from users"
+              "title": "Backlinks for 1. Django"
             }
           },
           {
-            "id": "fe0cd2c41f1f8e32",
+            "id": "a1c3e6f567f90e70",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Getting Input from users.md",
+                "file": "Django/1. Django.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Getting Input from users"
+              "title": "Outgoing links from 1. Django"
             }
           },
           {
-            "id": "b6859fcd2fb16df4",
+            "id": "78676432b9efe595",
             "type": "leaf",
             "state": {
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-tags",
               "title": "Tags"
             }
           },
           {
-            "id": "c694e8cf9d2358d7",
+            "id": "c969023e029bd8a8",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Getting Input from users.md"
+                "file": "Django/1. Django.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Getting Input from users"
+              "title": "Outline of 1. Django"
             }
           }
         ]
@@ -178,9 +168,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0a03f4625e001a76",
+  "active": "b77d5a19c442263e",
   "lastOpenFiles": [
-    "Node js.md",
-    "Getting Input from users.md"
+    "Untitled.md",
+    "Django/13. Session Management.md",
+    "Django/1. Django.md"
   ]
 }
