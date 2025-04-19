@@ -166,9 +166,12 @@
   },
   "active": "490b8b0e763efeb1",
   "lastOpenFiles": [
-    "Untitled.canvas",
+    "output after handling exception.png",
+    "output after exception.png",
+    "1. Django.md",
     "14. Middleware.md",
     "13. Session Management.md",
+    "Untitled.canvas",
     "12. More about template.md",
     "11. Class Based Views.md",
     "10. Project Student Management.md",
@@ -179,7 +182,6 @@
     "5. Example Project.md",
     "4. Static Files.md",
     "3. Templates.md",
-    "1. Django.md",
     "2. Application level URL.md",
     "Pasted image 20250414232730.png",
     "display items of cart app session api.png",
@@ -189,7 +191,6 @@
     "addItem page of cart app session api.png",
     "index page of cart app session api.png",
     "page count using session.png",
-    "Pasted image 20250407001612.png",
-    "cbv app student delete.png"
+    "Pasted image 20250407001612.png"
   ]
 }
