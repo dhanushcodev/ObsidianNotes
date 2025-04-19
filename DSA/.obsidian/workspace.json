@@ -1,24 +1,24 @@
 {
   "main": {
-    "id": "f4f55ffff1dc278f",
+    "id": "897304e68e33e7b8",
     "type": "split",
     "children": [
       {
-        "id": "f287395aa0c688e1",
+        "id": "f076283b1d2cfac6",
         "type": "tabs",
         "children": [
           {
-            "id": "490b8b0e763efeb1",
+            "id": "a33a78848fd07e90",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "14. Middleware.md",
+                "file": "Arrays.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "14. Middleware"
+              "title": "Arrays"
             }
           }
         ]
@@ -27,20 +27,20 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "1d94d341291b9d49",
+    "id": "3cbba1178788c8f2",
     "type": "split",
     "children": [
       {
-        "id": "12e94ec1c4b7be01",
+        "id": "602a8189c981fb1b",
         "type": "tabs",
         "children": [
           {
-            "id": "5463be7ccff3fc39",
+            "id": "72ed02490234ad8e",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "byCreatedTimeReverse",
+                "sortOrder": "alphabetical",
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
@@ -48,7 +48,7 @@
             }
           },
           {
-            "id": "d4baa67392b9f6ba",
+            "id": "f93cce76f7c0b65d",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -65,7 +65,7 @@
             }
           },
           {
-            "id": "fd237a0a310b9178",
+            "id": "922859ed5815e20e",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -78,23 +78,24 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 300,
+    "collapsed": true
   },
   "right": {
-    "id": "93c028fc0d0ceaf9",
+    "id": "e466916110500b03",
     "type": "split",
     "children": [
       {
-        "id": "dfcfa4ca30ef572a",
+        "id": "a143d16bc354c64f",
         "type": "tabs",
         "children": [
           {
-            "id": "ce430cd0a7d0f5c2",
+            "id": "886a28d3627d59f9",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "14. Middleware.md",
+                "file": "2. Euclidean method for GCD.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,46 +105,51 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 14. Middleware"
+              "title": "Backlinks for 2. Euclidean method for GCD"
             }
           },
           {
-            "id": "31f7f98b460abafe",
+            "id": "a9dc0fc7ca393874",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Django.md",
+                "file": "2. Euclidean method for GCD.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Django"
+              "title": "Outgoing links from 2. Euclidean method for GCD"
             }
           },
           {
-            "id": "ebc22d4f376b4b0c",
+            "id": "860b79d1cac3d0b5",
             "type": "leaf",
             "state": {
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-tags",
               "title": "Tags"
             }
           },
           {
-            "id": "0465545e061d81cb",
+            "id": "415988b09af22bf5",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Django.md"
+                "file": "2. Euclidean method for GCD.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Django"
+              "title": "Outline of 2. Euclidean method for GCD"
             }
           }
         ]
@@ -160,36 +166,17 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "markdown-importer:Open format converter": false
+      "command-palette:Open command palette": false
     }
   },
-  "active": "490b8b0e763efeb1",
+  "active": "a33a78848fd07e90",
   "lastOpenFiles": [
-    "Untitled.canvas",
-    "14. Middleware.md",
-    "13. Session Management.md",
-    "12. More about template.md",
-    "11. Class Based Views.md",
-    "10. Project Student Management.md",
-    "9. Model Forms.md",
-    "8. Django Forms.md",
-    "7. Django ORM.md",
-    "6. Models.md",
-    "5. Example Project.md",
-    "4. Static Files.md",
-    "3. Templates.md",
-    "1. Django.md",
-    "2. Application level URL.md",
-    "Pasted image 20250414232730.png",
-    "display items of cart app session api.png",
-    "display items cart app cookies.png",
-    "add item page cart app cookies.png",
-    "index page of cart app cookies.png",
-    "addItem page of cart app session api.png",
-    "index page of cart app session api.png",
-    "page count using session.png",
-    "Pasted image 20250407001612.png",
-    "cbv app student delete.png"
+    "Sorting - II.md",
+    "Arrays.md",
+    "Sorting - I.md",
+    "1. Reverse Integer.md",
+    "2. Euclidean method for GCD.md",
+    "Time  and Space complexity.md",
+    "Java Collections.md"
   ]
 }

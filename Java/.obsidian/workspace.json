@@ -1,24 +1,24 @@
 {
   "main": {
-    "id": "f4f55ffff1dc278f",
+    "id": "738fb8b707c35e37",
     "type": "split",
     "children": [
       {
-        "id": "f287395aa0c688e1",
+        "id": "fd636b28ddd0a899",
         "type": "tabs",
         "children": [
           {
-            "id": "490b8b0e763efeb1",
+            "id": "352aa4e4cf635e6f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "14. Middleware.md",
+                "file": "Java Collections.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "14. Middleware"
+              "title": "Java Collections"
             }
           }
         ]
@@ -27,20 +27,20 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "1d94d341291b9d49",
+    "id": "cf4bc2c59b789cca",
     "type": "split",
     "children": [
       {
-        "id": "12e94ec1c4b7be01",
+        "id": "f1447feb5bd5be0b",
         "type": "tabs",
         "children": [
           {
-            "id": "5463be7ccff3fc39",
+            "id": "611dfef408551a39",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "byCreatedTimeReverse",
+                "sortOrder": "alphabetical",
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
@@ -48,7 +48,7 @@
             }
           },
           {
-            "id": "d4baa67392b9f6ba",
+            "id": "f677c26d9cecdb71",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -65,7 +65,7 @@
             }
           },
           {
-            "id": "fd237a0a310b9178",
+            "id": "de43dde40f0ef953",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -78,23 +78,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 300
   },
   "right": {
-    "id": "93c028fc0d0ceaf9",
+    "id": "2c9154d7af1a26f7",
     "type": "split",
     "children": [
       {
-        "id": "dfcfa4ca30ef572a",
+        "id": "33a0fdd570276da6",
         "type": "tabs",
         "children": [
           {
-            "id": "ce430cd0a7d0f5c2",
+            "id": "fda5a3dd12c7f269",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "14. Middleware.md",
+                "file": "Java Collections.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,46 +104,51 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 14. Middleware"
+              "title": "Backlinks for Java Collections"
             }
           },
           {
-            "id": "31f7f98b460abafe",
+            "id": "b52c126490a356d2",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Django.md",
+                "file": "Java Collections.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Django"
+              "title": "Outgoing links from Java Collections"
             }
           },
           {
-            "id": "ebc22d4f376b4b0c",
+            "id": "7a107e9555ade5a2",
             "type": "leaf",
             "state": {
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-tags",
               "title": "Tags"
             }
           },
           {
-            "id": "0465545e061d81cb",
+            "id": "098f5dae385d25e0",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Django.md"
+                "file": "Java Collections.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Django"
+              "title": "Outline of Java Collections"
             }
           }
         ]
@@ -160,36 +165,12 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "markdown-importer:Open format converter": false
+      "command-palette:Open command palette": false
     }
   },
-  "active": "490b8b0e763efeb1",
+  "active": "352aa4e4cf635e6f",
   "lastOpenFiles": [
-    "Untitled.canvas",
-    "14. Middleware.md",
-    "13. Session Management.md",
-    "12. More about template.md",
-    "11. Class Based Views.md",
-    "10. Project Student Management.md",
-    "9. Model Forms.md",
-    "8. Django Forms.md",
-    "7. Django ORM.md",
-    "6. Models.md",
-    "5. Example Project.md",
-    "4. Static Files.md",
-    "3. Templates.md",
-    "1. Django.md",
-    "2. Application level URL.md",
-    "Pasted image 20250414232730.png",
-    "display items of cart app session api.png",
-    "display items cart app cookies.png",
-    "add item page cart app cookies.png",
-    "index page of cart app cookies.png",
-    "addItem page of cart app session api.png",
-    "index page of cart app session api.png",
-    "page count using session.png",
-    "Pasted image 20250407001612.png",
-    "cbv app student delete.png"
+    "Regex.md",
+    "Java Collections.md"
   ]
 }
