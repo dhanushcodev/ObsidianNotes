@@ -17,6 +17,42 @@ Java Collections Framework (JCF) is a **set of classes and interfaces** that imp
 |`Deque`|Double-ended queue|
 |`Map`|Stores key-value pairs|
 
+### **List Interface Implementations**
+
+|Class|Features|Best Use Case|
+|---|---|---|
+|**ArrayList**|Dynamic array, fast for random access, slow for inserts/deletes in middle|When frequent random access and minimal insert/delete in middle is needed|
+|**LinkedList**|Doubly linked list, slower access, fast insert/delete at beginning/middle|When frequent insert/delete at beginning/middle is needed|
+
+---
+
+### **Set Interface Implementations**
+
+|Class|Features|Best Use Case|
+|---|---|---|
+|**HashSet**|No duplicates, unordered, backed by HashMap, allows `null`|When unique elements and order doesn't matter|
+|**LinkedHashSet**|Maintains insertion order, no duplicates, allows `null`|When you want unique elements _and_ maintain insertion order|
+|**TreeSet**|Sorted order (natural or custom), no duplicates, does not allow `null`|When sorted unique elements are needed|
+
+---
+
+### **Map Interface Implementations**
+
+|Class|Features|Best Use Case|
+|---|---|---|
+|**HashMap**|Key-value pairs, unordered, allows `null` keys and values|When fast lookups and no order is required|
+|**LinkedHashMap**|Maintains insertion order, allows `null` keys/values|When predictable iteration order of keys is needed|
+|**TreeMap**|Sorted keys (natural/custom order), no `null` key|When you need sorted keys in a map|
+|**Hashtable**|Thread-safe, synchronized, doesn’t allow `null` keys or values (legacy class)|When thread safety is required (prefer `ConcurrentHashMap` instead today)|
+
+---
+
+### **Queue/Deque Implementations**
+
+|Class|Features|Best Use Case|
+|---|---|---|
+|**PriorityQueue**|Elements ordered by natural order or comparator, not thread-safe|When you need elements to be processed based on priority|
+|**ArrayDeque**|Double-ended queue, faster than `Stack` or `LinkedList` for stack/queue operations|When using it as a stack or queue|
 ---
 
 ## 📃 List Interface
@@ -497,3 +533,4 @@ public class SynchronizedExample {
 }
 
 ```
+
