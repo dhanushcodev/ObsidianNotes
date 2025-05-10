@@ -8,17 +8,15 @@
         "type": "tabs",
         "children": [
           {
-            "id": "490b8b0e763efeb1",
+            "id": "2443e7659b0b665b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "14. Middleware.md",
-                "mode": "source",
-                "source": false
+                "file": "Excalidraw/Django Authentication.md"
               },
-              "icon": "lucide-file",
-              "title": "14. Middleware"
+              "icon": "excalidraw-icon",
+              "title": "Django Authentication"
             }
           }
         ]
@@ -161,16 +159,29 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "markdown-importer:Open format converter": false
+      "markdown-importer:Open format converter": false,
+      "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "490b8b0e763efeb1",
+  "active": "2443e7659b0b665b",
   "lastOpenFiles": [
-    "output after handling exception.png",
-    "output after exception.png",
     "1. Django.md",
+    "16. ORM Relationships.md",
+    "15. Security.md",
     "14. Middleware.md",
     "13. Session Management.md",
+    "assing group to users.png",
+    "create a new group teacher.png",
+    "Error for delete for user in fbvCRUD application.png",
+    "select permission for user in fvbCRUD application.png",
+    "login page of fbvCRUD application.png",
+    "new user kumar for fbvCRUD application.png",
+    "Pasted image 20250510164211.png",
+    "Pasted image 20250510164036.png",
+    "Pasted image 20250510163859.png",
+    "Django administration page for fbvCRUD app.png",
+    "Excalidraw/Django Authentication.md",
+    "Excalidraw",
     "Untitled.canvas",
     "12. More about template.md",
     "11. Class Based Views.md",
@@ -182,15 +193,6 @@
     "5. Example Project.md",
     "4. Static Files.md",
     "3. Templates.md",
-    "2. Application level URL.md",
-    "Pasted image 20250414232730.png",
-    "display items of cart app session api.png",
-    "display items cart app cookies.png",
-    "add item page cart app cookies.png",
-    "index page of cart app cookies.png",
-    "addItem page of cart app session api.png",
-    "index page of cart app session api.png",
-    "page count using session.png",
-    "Pasted image 20250407001612.png"
+    "2. Application level URL.md"
   ]
 }

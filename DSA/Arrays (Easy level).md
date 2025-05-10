@@ -1,4 +1,4 @@
-#### Largest Element in an array
+### Largest Element in an array
 
 Brute force solution:
 ```pseudo

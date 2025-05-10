@@ -4,21 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "f076283b1d2cfac6",
+        "id": "8e17fc34abf93c1c",
         "type": "tabs",
         "children": [
           {
-            "id": "a33a78848fd07e90",
+            "id": "36f50b2d3498eb27",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "Arrays (Easy level).md",
-                "mode": "source",
-                "source": false
+                "file": "Excalidraw/Sort an arrays of 0's 1's and 2's.md"
               },
-              "icon": "lucide-file",
-              "title": "Arrays (Easy level)"
+              "icon": "excalidraw-icon",
+              "title": "Sort an arrays of 0's 1's and 2's"
             }
           }
         ]
@@ -94,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2. Euclidean method for GCD.md",
+                "file": "Arrays (Medium level).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +102,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 2. Euclidean method for GCD"
+              "title": "Backlinks for Arrays (Medium level)"
             }
           },
           {
@@ -142,16 +140,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2. Euclidean method for GCD.md",
+                "file": "Arrays (Medium level).md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2. Euclidean method for GCD"
+              "title": "Outline of Arrays (Medium level)"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -165,16 +164,20 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "a33a78848fd07e90",
+  "active": "36f50b2d3498eb27",
   "lastOpenFiles": [
-    "Untitled.canvas",
+    "Arrays (Medium level).md",
+    "Excalidraw/Sort an arrays of 0's 1's and 2's.md",
     "Arrays (Easy level).md",
+    "1. Reverse Integer.md",
+    "Excalidraw",
+    "Untitled.canvas",
     "Sorting - II.md",
     "Sorting - I.md",
-    "1. Reverse Integer.md",
     "2. Euclidean method for GCD.md",
     "Time  and Space complexity.md",
     "Java Collections.md"
