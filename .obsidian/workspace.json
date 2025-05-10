@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Django/13. Session Management.md",
+                "file": "DSA/Excalidraw/Sort an arrays of 0's 1's and 2's.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "13. Session Management"
+              "title": "Sort an arrays of 0's 1's and 2's"
             }
           }
         ]
@@ -168,10 +168,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b77d5a19c442263e",
+  "active": "b2cbbf626383e486",
   "lastOpenFiles": [
-    "Untitled.md",
     "Django/13. Session Management.md",
+    "Untitled.md",
     "Django/1. Django.md"
   ]
 }
