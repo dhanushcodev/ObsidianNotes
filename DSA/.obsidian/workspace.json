@@ -11,12 +11,14 @@
             "id": "36f50b2d3498eb27",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Sort an arrays of 0's 1's and 2's.md"
+                "file": "Arrays (Medium level).md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "Sort an arrays of 0's 1's and 2's"
+              "icon": "lucide-file",
+              "title": "Arrays (Medium level)"
             }
           }
         ]
@@ -148,14 +150,23 @@
               "icon": "lucide-list",
               "title": "Outline of Arrays (Medium level)"
             }
+          },
+          {
+            "id": "dc8bed6fcf73510f",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -165,18 +176,20 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-excalidraw-plugin:New drawing": false
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "36f50b2d3498eb27",
   "lastOpenFiles": [
-    "Excalidraw/Sort an arrays of 0's 1's and 2's.md",
+    "Excalidraw/Duch national flag Alogrithm.md",
+    "Excalidraw/Kadane's Algorithm.md",
     "Arrays (Medium level).md",
+    "Sorting - II.md",
     "Arrays (Easy level).md",
     "1. Reverse Integer.md",
     "Excalidraw",
     "Untitled.canvas",
-    "Sorting - II.md",
     "Sorting - I.md",
     "2. Euclidean method for GCD.md",
     "Time  and Space complexity.md",

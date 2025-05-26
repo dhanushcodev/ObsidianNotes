@@ -18,8 +18,21 @@
               "icon": "excalidraw-icon",
               "title": "Django Authentication"
             }
+          },
+          {
+            "id": "6288b7c6d18e18e8",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Django restframework.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Django restframework"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -92,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "14. Middleware.md",
+                "file": "Excalidraw/Django restframework.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 14. Middleware"
+              "title": "Backlinks for Django restframework"
             }
           },
           {
@@ -163,9 +176,12 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "2443e7659b0b665b",
+  "active": "5463be7ccff3fc39",
   "lastOpenFiles": [
+    "6. Models.md",
     "1. Django.md",
+    "Excalidraw/Django restframework.md",
+    "Excalidraw/Django Authentication.md",
     "16. ORM Relationships.md",
     "15. Security.md",
     "14. Middleware.md",
@@ -180,7 +196,6 @@
     "Pasted image 20250510164036.png",
     "Pasted image 20250510163859.png",
     "Django administration page for fbvCRUD app.png",
-    "Excalidraw/Django Authentication.md",
     "Excalidraw",
     "Untitled.canvas",
     "12. More about template.md",
@@ -189,7 +204,6 @@
     "9. Model Forms.md",
     "8. Django Forms.md",
     "7. Django ORM.md",
-    "6. Models.md",
     "5. Example Project.md",
     "4. Static Files.md",
     "3. Templates.md",
