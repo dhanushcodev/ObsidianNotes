@@ -321,3 +321,50 @@ O(N)
 Space complexity:
 O(1)
 
+### Best Time to Buy and Sell Stock
+
+You are given an array `prices` where `prices[i]` is the price of a given stock on the `ith` day.
+
+You want to maximize your profit by choosing a **single day** to buy one stock and choosing a **different day in the future** to sell that stock.
+
+Return _the maximum profit you can achieve from this transaction_. If you cannot achieve any profit, return `0`.
+
+**Input:** prices = [7,1,5,3,6,4]
+**Output:** 5
+##### Brute force:
+
+iterate through all the possible cases and find the max profit
+
+```java
+int pofit = 0;
+for(int i = 0;i < arr.length-1;i++){
+	for(int j = i+1; j < arr.length; j++){
+		profit = Math.profit(profit,arr[j]-arr[i]);
+	}
+}
+```
+
+Time complexity:
+O(N2)
+Space complexity:
+O(1)
+
+##### Optimal solution:
+
+[[Best Time to Buy and sell Stock]]
+```java
+```java
+class Solution {
+    public int maxProfit(int[] prices) {
+        if(prices.length == 1) return 0;
+        int min = prices[0];
+        int profit =0;
+        for(int i=1;i<prices.length;i++){
+            if(prices[i]<min) min=prices[i];
+            profit = Math.max(profit,prices[i]-min);
+        }
+        return profit;
+    }
+}
+```
+```
