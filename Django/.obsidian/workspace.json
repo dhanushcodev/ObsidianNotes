@@ -11,28 +11,17 @@
             "id": "2443e7659b0b665b",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Django Authentication.md"
+                "file": "16. ORM Relationships.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "Django Authentication"
-            }
-          },
-          {
-            "id": "6288b7c6d18e18e8",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Django restframework.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Django restframework"
+              "icon": "lucide-file",
+              "title": "16. ORM Relationships"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -89,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 337.5
   },
   "right": {
     "id": "93c028fc0d0ceaf9",
@@ -156,13 +145,23 @@
               "icon": "lucide-list",
               "title": "Outline of Django"
             }
+          },
+          {
+            "id": "524d16acb23c23c4",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -173,16 +172,17 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "markdown-importer:Open format converter": false,
-      "obsidian-excalidraw-plugin:New drawing": false
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5463be7ccff3fc39",
+  "active": "2443e7659b0b665b",
   "lastOpenFiles": [
-    "6. Models.md",
     "1. Django.md",
-    "Excalidraw/Django restframework.md",
     "Excalidraw/Django Authentication.md",
     "16. ORM Relationships.md",
+    "Excalidraw/Django restframework.md",
+    "6. Models.md",
     "15. Security.md",
     "14. Middleware.md",
     "13. Session Management.md",
