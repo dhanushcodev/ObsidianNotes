@@ -91,7 +91,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "42e75bb804b8ed92",
@@ -184,8 +184,8 @@
   },
   "active": "6a4e478c7aae3e39",
   "lastOpenFiles": [
-    "Welcome.md",
     "Excalidraw/Django RestFramework.md",
+    "Welcome.md",
     "Excalidraw"
   ]
 }
