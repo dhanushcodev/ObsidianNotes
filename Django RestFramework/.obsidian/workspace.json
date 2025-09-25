@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "8b385de0da54251a",
+        "id": "66a3075e3b15ab30",
         "type": "tabs",
         "children": [
           {
-            "id": "fd6a40fbc247af33",
+            "id": "71ef5b4f842a4c4e",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -22,15 +22,15 @@
             }
           },
           {
-            "id": "c370317a837b10f8",
+            "id": "6668d111608f681f",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Excalidraw/4. Django Rest Framework.md"
+                "file": "Excalidraw/2. Models and Migrations.md"
               },
-              "icon": "lucide-ghost",
-              "title": "excalidraw"
+              "icon": "excalidraw-icon",
+              "title": "2. Models and Migrations"
             }
           }
         ]
@@ -193,17 +193,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d9de29d26482f4d8",
+  "active": "71ef5b4f842a4c4e",
   "lastOpenFiles": [
-    "Excalidraw/4. Django Rest Framework.md",
-    "5. Serializers and Views.md",
-    "Excalidraw/1. Basic overview.md",
     "Excalidraw/2. Models and Migrations.md",
-    "Excalidraw/3. Creating JSON Response.md",
-    "4. Django Rest Framework.md",
-    "3. Creating JSON Response.md",
-    "2. Models and Migrations.md",
+    "5. Serializers and Views.md",
     "1. Basic Setup.md",
+    "2. Models and Migrations.md",
+    "Excalidraw/1. Basic overview.md",
+    "Excalidraw/5. Serializers and Views.md",
+    "Excalidraw/4. Django Rest Framework.md",
+    "Excalidraw/3. Creating JSON Response.md",
+    "3. Creating JSON Response.md",
+    "4. Django Rest Framework.md",
     "Excalidraw"
   ]
 }
