@@ -22,15 +22,15 @@
             }
           },
           {
-            "id": "6668d111608f681f",
+            "id": "443ecd74eb9d0143",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Excalidraw/2. Models and Migrations.md"
+                "file": "Excalidraw/5. Serializers and Views.md"
               },
               "icon": "excalidraw-icon",
-              "title": "2. Models and Migrations"
+              "title": "5. Serializers and Views"
             }
           }
         ]
