@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "commit.md",
+                "file": "8. Django ORM functions.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "commit"
+              "title": "8. Django ORM functions"
             }
           }
         ],
@@ -226,8 +226,8 @@
   },
   "active": "9eae61c0407fcc5c",
   "lastOpenFiles": [
-    "8. Django ORM functions.md",
     "commit.md",
+    "8. Django ORM functions.md",
     "7. JWT Authentication.md",
     "Excalidraw/5. Serializers and Views.md",
     "6. Permissions.md",
