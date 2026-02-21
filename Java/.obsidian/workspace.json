@@ -8,20 +8,35 @@
         "type": "tabs",
         "children": [
           {
-            "id": "352aa4e4cf635e6f",
+            "id": "006a5a0b458b451f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java Collections.md",
+                "file": "Regex.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Java Collections"
+              "title": "Regex"
+            }
+          },
+          {
+            "id": "b32a8d5659e2a1f3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Polymorphism.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Polymorphism"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -94,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Java Collections.md",
+                "file": "Polymorphism.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Java Collections"
+              "title": "Backlinks for Polymorphism"
             }
           },
           {
@@ -150,13 +165,23 @@
               "icon": "lucide-list",
               "title": "Outline of Java Collections"
             }
+          },
+          {
+            "id": "5809e5e56370f361",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -166,12 +191,15 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "352aa4e4cf635e6f",
+  "active": "b32a8d5659e2a1f3",
   "lastOpenFiles": [
     "Regex.md",
-    "Java Collections.md"
+    "Polymorphism.md",
+    "Java Collections.md",
+    "Iterating Through Collections in Java.md"
   ]
 }

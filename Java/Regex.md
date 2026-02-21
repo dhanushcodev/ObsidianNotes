@@ -13,11 +13,8 @@ Regular expressions are patterns used to match character combinations in strings
 ### 1. **Literal Characters**
 
 - **Pattern**: `hello`
-    
 - **Matches**: The exact string "hello"
-    
 - **Example**: `"hello world".matches(".*hello.*")` ✅
-    
 
 ### 2. **Meta-characters**
 
@@ -39,9 +36,7 @@ Regular expressions are patterns used to match character combinations in strings
 ### 🌀 Special Note on `^`:
 
 - `^a` means "starts with a" (outside brackets)
-    
 - `[^a]` means "not a" (inside brackets)
-    
 
 |Regex|Location|Meaning|
 |---|---|---|
@@ -81,12 +76,10 @@ Regular expressions are patterns used to match character combinations in strings
 ### 1. **Grouping**: `()`
 
 - Example: `(ab)+` → Matches `ab`, `abab`, etc.
-    
 
 ### 2. **Alternation**: `|`
 
 - Example: `cat|dog` → Matches `cat` or `dog`
-    
 
 ---
 
@@ -101,9 +94,7 @@ System.out.println("Alphabetic only: " + result);
 ```
 
 - Regex: `[^a-zA-Z]`
-    
 - Meaning: Remove all characters **except** letters (a-z and A-Z)
-    
 
 ---
 
@@ -112,38 +103,26 @@ System.out.println("Alphabetic only: " + result);
 ### 1. **Positive Lookahead** `X(?=Y)`
 
 - Match X only if followed by Y
-    
 - Example: `\d(?=%)` → matches digit only if followed by `%`
-    
 - Input: `50% and 30%` → Matches: `5`, `3`
-    
 
 ### 2. **Negative Lookahead** `X(?!Y)`
 
 - Match X only if **not** followed by Y
-    
 - Example: `\d(?!%)` → Matches digits not followed by `%`
-    
 - Input: `50 and 30%` → Matches: `5`, `0`
-    
 
 ### 3. **Positive Lookbehind** `(?<=Y)X`
 
 - Match X only if preceded by Y
-    
 - Example: `(?<=\$)\d+` → Matches digits preceded by `$`
-    
 - Input: `$200 and 300` → Matches: `200`
-    
 
 ### 4. **Negative Lookbehind** `(?<!Y)X`
 
 - Match X only if **not** preceded by Y
-    
 - Example: `(?<!\$)\d+` → Matches digits not preceded by `$`
-    
 - Input: `$200 and 300` → Matches: `300`
-    
 
 ---
 
@@ -165,9 +144,7 @@ System.out.println("Alphabetic only: " + result);
 ### 🔹 Greedy vs Lazy Quantifiers
 
 - Greedy: `a.+b` → matches as much as possible
-    
 - Lazy: `a.+?b` → matches as little as possible
-    
 
 ### 🔹 Escaping Meta-characters
 
@@ -219,51 +196,35 @@ String pattern = "\\d{3}-\\d{2}-\\d{4}"; // SSN format: 123-45-6789
 **Goal**: Extract or validate standard email addresses.
 
 - **Regex**: `\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}\b`
-    
 - **Example Input**: `"Contact us at support@example.com or admin@domain.org."`
-    
 - **Expected Match**: `support@example.com`, `admin@domain.org`
-    
 
 ### 2. 📞 Validate a 10-Digit Phone Number
 
 **Goal**: Match a phone number with exactly 10 digits (no dashes/spaces).
 
 - **Regex**: `^\d{10}$`
-    
 - **Example Input**: `"9876543210"` → ✅
-    
 - Allow formats like `123-456-7890`: `^\d{3}[-.\s]?\d{3}[-.\s]?\d{4}$`
-    
 
 ### 3. 🔢 Extract All Numbers from Text
 
 **Goal**: Capture all numeric values from a paragraph.
 
 - **Regex**: `\d+`
-    
 - **Input**: `"There are 3 cats, 14 dogs, and 2025 birds."`
-    
 - **Matches**: `3`, `14`, `2025`
-    
 
 ### 4. 🚫 Remove All Special Characters
 
 **Goal**: Clean a string by removing all non-alphabetic characters.
 
 - **Regex**: `[^a-zA-Z]`
-    
 - **Replacement**: `""`
-    
 - **Java Example**:
-    
 
 ```java
 String input = "He110, W0r1d! @2025";
 String result = input.replaceAll("[^a-zA-Z]", "");
 System.out.println(result); // Output: HelloWrd
 ```
-
----
-
-Want more? I can generate cheat sheets or flashcards next!

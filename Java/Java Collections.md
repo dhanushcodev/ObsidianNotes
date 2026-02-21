@@ -49,10 +49,11 @@ Java Collections Framework (JCF) is a **set of classes and interfaces** that imp
 
 ### **Queue/Deque Implementations**
 
-|Class|Features|Best Use Case|
-|---|---|---|
-|**PriorityQueue**|Elements ordered by natural order or comparator, not thread-safe|When you need elements to be processed based on priority|
-|**ArrayDeque**|Double-ended queue, faster than `Stack` or `LinkedList` for stack/queue operations|When using it as a stack or queue|
+| Class             | Features                                                                           | Best Use Case                                            |
+| ----------------- | ---------------------------------------------------------------------------------- | -------------------------------------------------------- |
+| **PriorityQueue** | Elements ordered by natural order or comparator, not thread-safe                   | When you need elements to be processed based on priority |
+| **ArrayDeque**    | Double-ended queue, faster than `Stack` or `LinkedList` for stack/queue operations | When using it as a stack or queue                        |
+
 ---
 
 ## 📃 List Interface
@@ -60,11 +61,8 @@ Java Collections Framework (JCF) is a **set of classes and interfaces** that imp
 ### 🔹 Implementations:
 
 - `ArrayList`
-    
 - `LinkedList`
-    
 - `Vector` (legacy)
-    
 
 ### 🔸 Example:
 
@@ -85,23 +83,14 @@ public class ListExample {
 ### 🔹 Common List CRUD Methods:
 
 - `add(E e)`
-    
 - `add(int index, E element)`
-    
 - `get(int index)`
-    
 - `set(int index, E element)`
-    
 - `remove(int index)` or `remove(Object o)`
-    
 - `contains(Object o)`
-    
 - `size()`
-    
 - `clear()`
-    
 - `isEmpty()`
-    
 
 ---
 
@@ -110,11 +99,8 @@ public class ListExample {
 ### 🔹 Implementations:
 
 - `HashSet` (no order)
-    
 - `LinkedHashSet` (insertion order)
-    
 - `TreeSet` (sorted order)
-    
 
 ### 🔸 Example:
 
@@ -135,19 +121,13 @@ public class SetExample {
 ### 🔹 Common Set CRUD Methods:
 
 - `add(E e)`
-    
 - `remove(Object o)`
-    
 - `contains(Object o)`
-    
 - `size()`
-    
 - `clear()`
-    
 - `isEmpty()`
-    
 - `iterator()`
-    
+
 
 ---
 
@@ -156,9 +136,7 @@ public class SetExample {
 ### 🔹 Implementations:
 
 - `LinkedList` (also a List)
-    
 - `PriorityQueue` (elements are ordered by priority)
-    
 
 ### 🔸 Example:
 
@@ -179,15 +157,10 @@ public class QueueExample {
 ### 🔹 Common Queue CRUD Methods:
 
 - `add(E e)` / `offer(E e)`
-    
 - `remove()` / `poll()`
-    
 - `element()` / `peek()`
-    
 - `isEmpty()`
-    
 - `size()`
-    
 
 ---
 
@@ -217,7 +190,6 @@ public class PriorityQueueExample {
 ### 🔹 Implementations:
 
 - `ArrayDeque`
-    
 
 ### 🔸 Example:
 
@@ -237,17 +209,11 @@ public class DequeExample {
 ### 🔹 Common Deque CRUD Methods:
 
 - `addFirst(E e)` / `addLast(E e)`
-    
 - `removeFirst()` / `removeLast()`
-    
 - `getFirst()` / `getLast()`
-    
 - `peekFirst()` / `peekLast()`
-    
 - `isEmpty()`
-    
 - `clear()`
-    
 
 ---
 
@@ -256,13 +222,9 @@ public class DequeExample {
 ### 🔹 Implementations:
 
 - `HashMap` (no order)
-    
 - `LinkedHashMap` (insertion order)
-    
 - `TreeMap` (sorted order by keys)
-    
 - `Hashtable` (legacy, thread-safe)
-    
 
 ### 🔸 Example:
 
@@ -281,34 +243,22 @@ public class MapExample {
 ### 🔹 Common Map CRUD Methods:
 
 - `put(K key, V value)`
-    
 - `get(Object key)`
-    
 - `remove(Object key)`
-    
 - `containsKey(Object key)`
-    
 - `containsValue(Object value)`
-    
 - `keySet()`
-    
 - `values()`
-    
 - `entrySet()`
-    
 - `size()`
-    
 - `clear()`
-    
 - `isEmpty()`
-    
 
 ---
 
 ## ⚙️ Utility Class – `Collections`
 
 - Static methods for sorting, searching, reversing, etc.
-
 ### 🔸 Example:
 
 ```java
