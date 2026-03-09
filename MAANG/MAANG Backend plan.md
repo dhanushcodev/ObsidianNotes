@@ -14,13 +14,13 @@ That said, some frameworks _do_ align better with what these companies use inter
 
 ## 🏗️ Step 2: What MAANG Companies Actually Use Internally
 
-|Company|Common Backend Stack|Languages Used|
-|---|---|---|
-|**Meta (Facebook)**|Hack (PHP variant), Python (Django internally for some tools)|C++, Python, Hack|
-|**Amazon**|Java (Spring Boot), Node.js, Go, Python|Java, C++, Go, Python|
-|**Apple**|Java (Spring Boot), Python (Flask), Go|Swift, Objective-C, Java, Python|
-|**Netflix**|Spring Boot (Java/Kotlin), Flask (Python), Node.js|Java, Python, Node.js|
-|**Google**|Custom frameworks (internal), Flask, Java Spring|C++, Java, Go, Python|
+| Company             | Common Backend Stack                                          | Languages Used                   |
+| ------------------- | ------------------------------------------------------------- | -------------------------------- |
+| **Meta (Facebook)** | Hack (PHP variant), Python (Django internally for some tools) | C++, Python, Hack                |
+| **Amazon**          | Java (Spring Boot), Node.js, Go, Python                       | Java, C++, Go, Python            |
+| **Apple**           | Java (Spring Boot), Python (Flask), Go                        | Swift, Objective-C, Java, Python |
+| **Netflix**         | Spring Boot (Java/Kotlin), Flask (Python), Node.js            | Java, Python, Node.js            |
+| **Google**          | Custom frameworks (internal), Flask, Java Spring              | C++, Java, Go, Python            |
 
 👉 So: **Java**, **Python**, and **JavaScript/TypeScript** dominate.  
 And the most common **production frameworks** are:

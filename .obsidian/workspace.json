@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DSA/Excalidraw/Sort an arrays of 0's 1's and 2's.md",
+                "file": "Java/Abstract Class vs Interface in Java.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Sort an arrays of 0's 1's and 2's"
+              "title": "Abstract Class vs Interface in Java"
             }
           }
         ]
@@ -160,6 +160,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -170,6 +171,16 @@
   },
   "active": "b2cbbf626383e486",
   "lastOpenFiles": [
+    "React js/React Router.md",
+    "React js/Redux.md",
+    "React js/Custom Hooks.md",
+    "Node js/Node js.md",
+    "Node js/Getting Input from users.md",
+    "MAANG/MAANG Plan.md",
+    "MAANG/MAANG Backend plan.md",
+    "Java/Abstract Class vs Interface in Java.md",
+    "Java/Dynamic Method Dispatch in Java.md",
+    "Java/Iterating Through Collections in Java.md",
     "Django/13. Session Management.md",
     "Untitled.md",
     "Django/1. Django.md"
