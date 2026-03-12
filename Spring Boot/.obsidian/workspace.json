@@ -8,87 +8,87 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d2104f15915894ed",
+            "id": "42a1a3e1797f8b80",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Spring Core/Spring Core.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Spring Core"
-            }
-          },
-          {
-            "id": "6fc524797fd6f531",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2. Bean/4. ( @Primary ) and Naming the Beans in Spring Boot.md",
+                "file": "2. Bean/9. Spring Boot Stereotype Annotations.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4. ( @Primary ) and Naming the Beans in Spring Boot"
+              "title": "9. Spring Boot Stereotype Annotations"
             }
           },
           {
-            "id": "e83a1aef408f8e29",
+            "id": "5e64f7a340a2ca77",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2. Bean/6. ( @Component and @ComponentScan ) Bean Creation The easy way.md",
+                "file": "2. Bean/10. Method-Based Bean Wiring in Spring.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "6. ( @Component and @ComponentScan ) Bean Creation The easy way"
+              "title": "10. Method-Based Bean Wiring in Spring"
             }
           },
           {
-            "id": "555324cfb8419713",
+            "id": "d7c68888da679529",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2. Bean/7. ( @PostConstruct and @PreDestroy) Bean Lifecycle hooks.md",
+                "file": "2. Bean/11. Autowiring in Spring Boot Field Injection and Setter Injection.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "7. ( @PostConstruct and @PreDestroy) Bean Lifecycle hooks"
+              "title": "11. Autowiring in Spring Boot Field Injection and Setter Injection"
             }
           },
           {
-            "id": "82e437de5cceb755",
+            "id": "a28feaa8cfeaa2d3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2. Bean/8. Alternatives to @PostConstruct and @PreDestroy.md",
+                "file": "2. Bean/12. Constructor Injection in Spring Boot.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "8. Alternatives to @PostConstruct and @PreDestroy"
+              "title": "12. Constructor Injection in Spring Boot"
             }
           },
           {
-            "id": "69a73fce822d9fde",
+            "id": "2181c3367575898b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2. Bean/9. Difference Between @Bean and @Component in Spring.md",
+                "file": "2. Bean/13. @Primary and @Qualifier in Spring Autowiring.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "9. Difference Between @Bean and @Component in Spring"
+              "title": "13. @Primary and @Qualifier in Spring Autowiring"
+            }
+          },
+          {
+            "id": "1a903245e49ff662",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2. Bean/14. @DependsOn in Spring Boot.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "14. @DependsOn in Spring Boot"
             }
           }
         ],
@@ -165,7 +165,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2. Bean/9. Difference Between @Bean and @Component in Spring.md",
+                "file": "2. Bean/14. @DependsOn in Spring Boot.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,7 +175,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 9. Difference Between @Bean and @Component in Spring"
+              "title": "Backlinks for 14. @DependsOn in Spring Boot"
             }
           },
           {
@@ -184,12 +184,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2. Bean/9. Difference Between @Bean and @Component in Spring.md",
+                "file": "2. Bean/14. @DependsOn in Spring Boot.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 9. Difference Between @Bean and @Component in Spring"
+              "title": "Outgoing links from 14. @DependsOn in Spring Boot"
             }
           },
           {
@@ -227,13 +227,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2. Bean/9. Difference Between @Bean and @Component in Spring.md",
+                "file": "2. Bean/14. @DependsOn in Spring Boot.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 9. Difference Between @Bean and @Component in Spring"
+              "title": "Outline of 14. @DependsOn in Spring Boot"
             }
           },
           {
@@ -266,16 +266,22 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "69a73fce822d9fde",
+  "active": "ada5a4ed5b09c30d",
   "lastOpenFiles": [
+    "2. Bean/13. @Primary and @Qualifier in Spring Autowiring.md",
+    "2. Bean/14. @DependsOn in Spring Boot.md",
+    "2. Bean/12. Constructor Injection in Spring Boot.md",
+    "2. Bean/10. Method-Based Bean Wiring in Spring.md",
+    "2. Bean/11. Autowiring in Spring Boot Field Injection and Setter Injection.md",
     "2. Bean/6. ( @Component and @ComponentScan ) Bean Creation The easy way.md",
+    "2. Bean/2. Creating Bean.md",
+    "2. Bean/9. Spring Boot Stereotype Annotations.md",
     "2. Bean/9. Difference Between @Bean and @Component in Spring.md",
     "2. Bean/8. Alternatives to @PostConstruct and @PreDestroy.md",
     "2. Bean/7. ( @PostConstruct and @PreDestroy) Bean Lifecycle hooks.md",
     "2. Bean/5. ( @Import ) Using Multiple Configuration Classes.md",
     "2. Bean/4. ( @Primary ) and Naming the Beans in Spring Boot.md",
     "2. Bean/3. NoUniqueBeanDefinitionException in Spring.md",
-    "2. Bean/2. Creating Bean.md",
     "2. Bean/1. Bean.md",
     "1. Spring Core/Spring Core.md",
     "2. Bean",
