@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SOLID Principles in Java (With Real-Time Examples).md",
+                "file": "Abstract Class vs Interface in Java.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SOLID Principles in Java (With Real-Time Examples)"
+              "title": "Abstract Class vs Interface in Java"
             }
           }
         ],
@@ -239,9 +239,9 @@
   },
   "active": "fd002a7be8f360e2",
   "lastOpenFiles": [
-    "Abstract Class vs Interface in Java.md",
-    "SOLID Principles in Java (With Real-Time Examples).md",
     "Dynamic Method Dispatch in Java.md",
+    "Abstract Class vs Interface in Java.md",
+    "1. SOLID Principles in Java (With Real-Time Examples).md",
     "Polymorphism.md",
     "Java Collections.md",
     "Iterating Through Collections in Java.md",
