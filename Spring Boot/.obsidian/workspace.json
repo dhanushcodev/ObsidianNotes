@@ -4,11 +4,53 @@
     "type": "split",
     "children": [
       {
-        "id": "c3e2346edc5fe3ac",
+        "id": "274cb6e8cd36285d",
         "type": "tabs",
         "children": [
           {
-            "id": "d6a9e1184dd3c1ec",
+            "id": "b73e1bffe571939a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3. Spring Boot/6. @RequestBody in Spring Boot.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "6. @RequestBody in Spring Boot"
+            }
+          },
+          {
+            "id": "ee38897a27233bb8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "5. Exceptions, Validation, Auditing & Bean Scopes/1. @RestControllerAdvice in Spring Boot.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "1. @RestControllerAdvice in Spring Boot"
+            }
+          },
+          {
+            "id": "47576832affd6278",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "5. Exceptions, Validation, Auditing & Bean Scopes/2. Spring Boot Validation (Complete Notes – Basics + All Mappings).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2. Spring Boot Validation (Complete Notes – Basics + All Mappings)"
+            }
+          },
+          {
+            "id": "e6101b821aa2806f",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -22,49 +64,21 @@
             }
           },
           {
-            "id": "c84308b71d27e2d1",
+            "id": "b7c8f064584beba0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "4. Spring Data JPA/2. JPA @GeneratedValue (GenerationType) in Spring Boot.md",
+                "file": "5. Exceptions, Validation, Auditing & Bean Scopes/4. JPA Auditing in Spring Boot.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2. JPA @GeneratedValue (GenerationType) in Spring Boot"
-            }
-          },
-          {
-            "id": "dd734b93287151b5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "4. Spring Data JPA/3. JpaRepository + Custom Queries + Dependency Injection.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "3. JpaRepository + Custom Queries + Dependency Injection"
-            }
-          },
-          {
-            "id": "64016bcb2a839132",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "4. Spring Data JPA/4. Lombok.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "4. Lombok"
+              "title": "4. JPA Auditing in Spring Boot"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -121,7 +135,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 228.5
   },
   "right": {
     "id": "7c987a0277fc7de0",
@@ -240,11 +254,19 @@
   },
   "active": "ada5a4ed5b09c30d",
   "lastOpenFiles": [
-    "4. Spring Data JPA/3. JpaRepository + Custom Queries + Dependency Injection.md",
+    "Untitled.md",
+    "5. Exceptions, Validation, Auditing & Bean Scopes/4. JPA Auditing in Spring Boot.md",
+    "4. Spring Data JPA/1. Spring Boot JPA Annotations @Entity, @Table, @Column.md",
+    "5. Exceptions, Validation, Auditing & Bean Scopes/3. @MappedSuperclass in Spring Boot (JPA).md",
+    "5. Exceptions, Validation, Auditing & Bean Scopes/2. Spring Boot Validation (Complete Notes – Basics + All Mappings).md",
+    "5. Exceptions, Validation, Auditing & Bean Scopes/1. @RestControllerAdvice in Spring Boot.md",
+    "5. Exceptions, Validation, Auditing & Bean Scopes",
+    "3. Spring Boot/6. @RequestBody in Spring Boot.md",
+    "4. Spring Data JPA/5. Hibernate ddl-auto Explained.md",
     "4. Spring Data JPA/4. Lombok.md",
+    "4. Spring Data JPA/3. JpaRepository + Custom Queries + Dependency Injection.md",
     "4. Spring Data JPA/2. JPA @GeneratedValue (GenerationType) in Spring Boot.md",
     "3. Spring Boot/8. ResponseEntity in Spring Boot.md",
-    "4. Spring Data JPA/1. Spring Boot JPA Annotations @Entity, @Table, @Column.md",
     "4. Spring Data JPA",
     "3. Spring Boot/11. H2 Database + schema.sql & data.sql in Spring Boot.md",
     "3. Spring Boot/10. Spring Boot API Versioning (Spring 7).md",
@@ -255,19 +277,12 @@
     "3. Spring Boot/2. @PathVariable in Spring Boot.md",
     "3. Spring Boot/4. @RequestParam in Spring Boot.md",
     "3. Spring Boot/7. @RequestEntity in Spring Boot.md",
-    "3. Spring Boot/6. @RequestBody in Spring Boot.md",
     "3. Spring Boot/5. @RequestHeader in Spring Boot.md",
     "3. Spring Boot/3. @RequestMapping Annotation in Spring Boot.md",
     "2. Bean/6. ( @Component and @ComponentScan ) Bean Creation The easy way.md",
     "3. Spring Boot",
     "2. Bean/18. Eager vs Lazy Initialization in Spring Boot.md",
     "2. Bean/17. Bean Scopes in Spring Boot.md",
-    "2. Bean/5. ( @Import ) Using Multiple Configuration Classes.md",
-    "2. Bean/4. ( @Primary ) and Naming the Beans in Spring Boot.md",
-    "2. Bean/1. Bean.md",
-    "2. Bean/16. Bean Naming in Spring when using BeanRegistrar.md",
-    "2. Bean/15. Real Use Case Scenarios for BeanRegistrar in Spring Boot.md",
-    "2. Bean/14. BeanRegistrar in Spring Boot.md",
     "2. Bean",
     "1. Spring Core",
     "Excalidraw"
