@@ -69,16 +69,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5. Exceptions, Validation, Auditing & Bean Scopes/4. JPA Auditing in Spring Boot.md",
+                "file": "3. Spring Boot/9. API Versioning.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4. JPA Auditing in Spring Boot"
+              "title": "9. API Versioning"
+            }
+          },
+          {
+            "id": "18a57b169183a403",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "5. Exceptions, Validation, Auditing & Bean Scopes/5. Bean Scopes in Spring Boot.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "5. Bean Scopes in Spring Boot"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -252,10 +266,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ada5a4ed5b09c30d",
+  "active": "18a57b169183a403",
   "lastOpenFiles": [
-    "Untitled.md",
     "5. Exceptions, Validation, Auditing & Bean Scopes/4. JPA Auditing in Spring Boot.md",
+    "5. Exceptions, Validation, Auditing & Bean Scopes/5. Bean Scopes in Spring Boot.md",
+    "3. Spring Boot/9. API Versioning.md",
     "4. Spring Data JPA/1. Spring Boot JPA Annotations @Entity, @Table, @Column.md",
     "5. Exceptions, Validation, Auditing & Bean Scopes/3. @MappedSuperclass in Spring Boot (JPA).md",
     "5. Exceptions, Validation, Auditing & Bean Scopes/2. Spring Boot Validation (Complete Notes – Basics + All Mappings).md",
@@ -270,7 +285,6 @@
     "4. Spring Data JPA",
     "3. Spring Boot/11. H2 Database + schema.sql & data.sql in Spring Boot.md",
     "3. Spring Boot/10. Spring Boot API Versioning (Spring 7).md",
-    "3. Spring Boot/9. API Versioning.md",
     "2. Bean/3. NoUniqueBeanDefinitionException in Spring.md",
     "2. Bean/2. Creating Bean.md",
     "3. Spring Boot/1. @SpringBootApplication Annotation.md",
