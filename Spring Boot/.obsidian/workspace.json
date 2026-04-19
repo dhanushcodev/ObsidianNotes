@@ -55,16 +55,86 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6. Spring Security/2. AuthenticationManager + UserDetailsService.md",
+                "file": "6. Spring Security/3. AuthenticationManager vs Spring Security Basic Auth.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2. AuthenticationManager + UserDetailsService"
+              "title": "3. AuthenticationManager vs Spring Security Basic Auth"
+            }
+          },
+          {
+            "id": "c8ae78aadb204727",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "6. Spring Security/4. Spring Security Authentication Case Sensitivity (Your Example Explained).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "4. Spring Security Authentication Case Sensitivity (Your Example Explained)"
+            }
+          },
+          {
+            "id": "7a5626e4a36a6e39",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "4. Spring Data JPA/4. Custom Queries + Dependency Injection.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "4. Custom Queries + Dependency Injection"
+            }
+          },
+          {
+            "id": "5733a643f79037b3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "6. Spring Security/5. Simple + Modern JWT Authentication (Spring Boot 3 ,Spring Security 6).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "5. Simple + Modern JWT Authentication (Spring Boot 3 ,Spring Security 6)"
+            }
+          },
+          {
+            "id": "f25f7b7e59b971af",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "6. Spring Security/6. Terminologies.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "6. Terminologies"
+            }
+          },
+          {
+            "id": "1b8a0ca4c92ab97f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. Spring Core/Few Terminologies.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Few Terminologies"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -238,17 +308,25 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "78b4e9d02c7256c6",
+  "active": "ada5a4ed5b09c30d",
   "lastOpenFiles": [
-    "6. Spring Security/1. Spring Security + Custom Security.md",
-    "6. Spring Security/2. AuthenticationManager + UserDetailsService.md",
-    "4. Spring Data JPA/3. JpaRepository + Custom Queries + Dependency Injection.md",
-    "4. Spring Data JPA/1. JpaRepository in Spring Boot.md",
-    "4. Spring Data JPA/1. Spring Boot JPA Annotations @Entity, @Table, @Column.md",
-    "3. Spring Boot/10. Spring Boot API Versioning (Spring 7).md",
+    "6. Spring Security/6. Terminologies.md",
+    "1. Spring Core/Few Terminologies.md",
+    "6. Spring Security/5. Simple + Modern JWT Authentication (Spring Boot 3 ,Spring Security 6).md",
+    "6. Spring Security/4. Spring Security Authentication Case Sensitivity (Your Example Explained).md",
     "6. Spring Security/3. AuthenticationManager vs Spring Security Basic Auth.md",
-    "1. Spring Core/Spring Core.md",
+    "6. Spring Security/2. AuthenticationManager + UserDetailsService.md",
+    "6. Spring Security/1. Spring Security + Custom Security.md",
+    "4. Spring Data JPA/6. Hibernate ddl-auto Explained.md",
+    "4. Spring Data JPA/5. Lombok.md",
+    "4. Spring Data JPA/4. Custom Queries + Dependency Injection.md",
+    "4. Spring Data JPA/3. JPA @GeneratedValue (GenerationType) in Spring Boot.md",
+    "4. Spring Data JPA/2. Spring Boot JPA Annotations @Entity, @Table, @Column.md",
+    "4. Spring Data JPA/1. JpaRepository in Spring Boot.md",
+    "JpaRepository Working Example + Explanation.md",
     "2. Bean/13. @Primary and @Qualifier in Spring Autowiring.md",
+    "3. Spring Boot/10. Spring Boot API Versioning (Spring 7).md",
+    "1. Spring Core/Spring Core.md",
     "6. Spring Security",
     "5. Exceptions, Validation, Auditing & Bean Scopes/8. onDelete in JPA & Hibernate (Delete Actions).md",
     "5. Exceptions, Validation, Auditing & Bean Scopes/7. Fetch Types & Cascade Types in JPA (Hibernate).md",
@@ -260,15 +338,7 @@
     "5. Exceptions, Validation, Auditing & Bean Scopes/2. Spring Boot Validation (Complete Notes – Basics + All Mappings).md",
     "5. Exceptions, Validation, Auditing & Bean Scopes/1. @RestControllerAdvice in Spring Boot.md",
     "5. Exceptions, Validation, Auditing & Bean Scopes",
-    "3. Spring Boot/6. @RequestBody in Spring Boot.md",
-    "4. Spring Data JPA/5. Hibernate ddl-auto Explained.md",
-    "4. Spring Data JPA/4. Lombok.md",
-    "4. Spring Data JPA/2. JPA @GeneratedValue (GenerationType) in Spring Boot.md",
-    "3. Spring Boot/8. ResponseEntity in Spring Boot.md",
     "4. Spring Data JPA",
-    "3. Spring Boot/11. H2 Database + schema.sql & data.sql in Spring Boot.md",
-    "2. Bean/3. NoUniqueBeanDefinitionException in Spring.md",
-    "2. Bean/2. Creating Bean.md",
     "3. Spring Boot",
     "2. Bean",
     "1. Spring Core",
