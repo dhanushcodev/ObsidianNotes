@@ -27,16 +27,44 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MAANG Backend plan.md",
+                "file": "Java Design Patterns Roadmap.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "MAANG Backend plan"
+              "title": "Java Design Patterns Roadmap"
+            }
+          },
+          {
+            "id": "044e63b4f272504c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "System Design Roadmap.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "System Design Roadmap"
+            }
+          },
+          {
+            "id": "8a04b685435119b5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SQL Roadmap.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "SQL Roadmap"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -184,9 +212,12 @@
       "bases:Create new base": false
     }
   },
-  "active": "0b105bd077dbe246",
+  "active": "8a04b685435119b5",
   "lastOpenFiles": [
-    "MAANG Plan.md",
-    "MAANG Backend plan.md"
+    "System Design Roadmap.md",
+    "SQL Roadmap.md",
+    "Java Design Patterns Roadmap.md",
+    "MAANG Backend plan.md",
+    "MAANG Plan.md"
   ]
 }

@@ -286,32 +286,32 @@
 
 # Phase 18 — Spring Boot
 
-| Topic | Status | Notes |
-|---|---|---|
-| Spring Core | ⬜ | |
-| IOC | ⬜ | |
-| Dependency Injection | ⬜ | |
-| Bean Lifecycle | ⬜ | |
-| Bean Scopes | ⬜ | |
-| Spring Boot | ⬜ | |
-| REST APIs | ⬜ | |
-| Controllers | ⬜ | |
-| Services | ⬜ | |
-| Repositories | ⬜ | |
-| DTO | ⬜ | |
-| Validation | ⬜ | |
-| Global Exception Handling | ⬜ | |
-| JPA | ⬜ | |
-| Hibernate | ⬜ | |
-| Entity Mapping | ⬜ | |
-| Relationships | ⬜ | |
-| JPQL | ⬜ | |
-| Lazy vs Eager Loading | ⬜ | |
-| Spring Security | ⬜ | |
-| Authentication | ⬜ | |
-| Authorization | ⬜ | |
-| JWT Authentication | ⬜ | |
-| BCrypt | ⬜ | |
+| Topic                     | Status | Notes |
+| ------------------------- | ------ | ----- |
+| Spring Core               | ⬜      |       |
+| IOC                       | ⬜      |       |
+| Dependency Injection      | ⬜      |       |
+| Bean Lifecycle            | ⬜      |       |
+| Bean Scopes               | ⬜      |       |
+| Spring Boot               | ⬜      |       |
+| REST APIs                 | ⬜      |       |
+| Controllers               | ⬜      |       |
+| Services                  | ⬜      |       |
+| Repositories              | ⬜      |       |
+| DTO                       | ⬜      |       |
+| Validation                | ⬜      |       |
+| Global Exception Handling | ⬜      |       |
+| JPA                       | ⬜      |       |
+| Hibernate                 | ⬜      |       |
+| Entity Mapping            | ⬜      |       |
+| Relationships             | ⬜      |       |
+| JPQL                      | ⬜      |       |
+| Lazy vs Eager Loading     | ⬜      |       |
+| Spring Security           | ⬜      |       |
+| Authentication            | ⬜      |       |
+| Authorization             | ⬜      |       |
+| JWT Authentication        | ⬜      |       |
+| BCrypt                    | ⬜      |       |
 
 ---
 
