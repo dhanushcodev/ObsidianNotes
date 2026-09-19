@@ -4,17 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "c831d33515a1f7a8",
+        "id": "8bd7d1c788895052",
         "type": "tabs",
         "children": [
           {
-            "id": "688057d9032a42bd",
+            "id": "53d640de3a45e235",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "type": "excalidraw",
+              "state": {
+                "file": "8.Authentication/Authentication Flow sketch.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Authentication Flow sketch"
             }
           }
         ]
@@ -37,7 +39,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -191,8 +195,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "688057d9032a42bd",
+  "active": "53d640de3a45e235",
   "lastOpenFiles": [
+    "8.Authentication/1. Spring Boot Authentication & Authorization.md",
+    "8.Authentication/Authentication Flow sketch.md",
+    "8.Authentication/Authentication Flow.md",
+    "6. Spring Security/1. Spring Security + Custom Security.md",
+    "6. Spring Security/6. Terminologies.md",
+    "6. Spring Security/5. Simple + Modern JWT Authentication (Spring Boot 3 ,Spring Security 6).md",
+    "6. Spring Security/3. AuthenticationManager vs Spring Security Basic Auth.md",
+    "6. Spring Security/4. Spring Security Authentication Case Sensitivity (Your Example Explained).md",
     "9. Advance spring data jpa/N+1 Problem in Spring Boot & Hibernate.md",
     "Excalidraw/Drawing 2026-06-07 23.03.57.excalidraw.md",
     "Excalidraw",
@@ -204,19 +216,12 @@
     "4. Spring Data JPA/3. JPA @GeneratedValue (GenerationType) in Spring Boot.md",
     "4. Spring Data JPA/2. Spring Boot JPA Annotations @Entity, @Table, @Column.md",
     "4. Spring Data JPA/1. JpaRepository in Spring Boot.md",
-    "8.Authentication/Authentication Flow sketch.md",
     "Spring Check list.md",
     "Untitled.canvas",
-    "8.Authentication/Authentication Flow.md",
-    "6. Spring Security/1. Spring Security + Custom Security.md",
     "6. Spring Security/2. AuthenticationManager + UserDetailsService.md",
-    "6. Spring Security/4. Spring Security Authentication Case Sensitivity (Your Example Explained).md",
-    "6. Spring Security/5. Simple + Modern JWT Authentication (Spring Boot 3 ,Spring Security 6).md",
-    "6. Spring Security/3. AuthenticationManager vs Spring Security Basic Auth.md",
     "8.Authentication",
     "7. Aspect Oriented Programming/AOP.md",
     "7. Aspect Oriented Programming",
-    "6. Spring Security/6. Terminologies.md",
     "4. Spring Data JPA/6. Hibernate ddl-auto Explained.md",
     "4. Spring Data JPA/5. Lombok.md",
     "JpaRepository Working Example + Explanation.md",
@@ -224,7 +229,6 @@
     "3. Spring Boot/10. Spring Boot API Versioning (Spring 7).md",
     "6. Spring Security",
     "5. Exceptions, Validation, Auditing & Bean Scopes/8. onDelete in JPA & Hibernate (Delete Actions).md",
-    "5. Exceptions, Validation, Auditing & Bean Scopes/7. Fetch Types & Cascade Types in JPA (Hibernate).md",
     "5. Exceptions, Validation, Auditing & Bean Scopes",
     "4. Spring Data JPA",
     "3. Spring Boot",
