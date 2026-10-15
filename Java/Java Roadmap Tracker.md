@@ -249,13 +249,13 @@
 
 # Phase 16 — SOLID Principles
 
-| Topic | Status | Notes |
-|---|---|---|
-| Single Responsibility | ⬜ | |
-| Open Closed Principle | ⬜ | |
-| Liskov Substitution | ⬜ | |
-| Interface Segregation | ⬜ | |
-| Dependency Inversion | ⬜ | |
+| Topic                 | Status | Notes                                                  |
+| --------------------- | ------ | ------------------------------------------------------ |
+| Single Responsibility | ⬜      | [[SOLID Principles in Java (With Real-Time Examples)]] |
+| Open Closed Principle | ⬜      |                                                        |
+| Liskov Substitution   | ⬜      |                                                        |
+| Interface Segregation | ⬜      |                                                        |
+| Dependency Inversion  | ⬜      |                                                        |
 
 ---
 
