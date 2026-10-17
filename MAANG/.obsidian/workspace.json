@@ -62,9 +62,21 @@
               "icon": "lucide-file",
               "title": "System Design Roadmap"
             }
+          },
+          {
+            "id": "d319d221bac0ff68",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.14.4"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.14.4"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -225,7 +237,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8a04b685435119b5",
+  "active": "d319d221bac0ff68",
   "lastOpenFiles": [
     "SQL Roadmap.md",
     "MAANG Plan.md",
