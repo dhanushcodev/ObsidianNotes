@@ -1,4 +1,4 @@
-	## 1. What is a lambda expression?
+## 1. What is a lambda expression?
 
 A **lambda expression** is a concise way to implement a functional
 interface without writing a separate class or method.
